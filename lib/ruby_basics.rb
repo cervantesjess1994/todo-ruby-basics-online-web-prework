@@ -4,11 +4,10 @@ end
 
 def assign_variable(name)
   puts "You are #{name}"
-  name = Bob
 end
 
-def argue(name)
-  puts "#{name}"
+def argue(phrase)
+  puts "I'm right and you are wrong"
 end
 
 def greeting(name, language = Spanish)
