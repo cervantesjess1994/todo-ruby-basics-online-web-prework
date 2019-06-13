@@ -1,25 +1,26 @@
-def division(num1 = 18, num2)
-  puts "#{num1} ÷ #{num2}"
+def division(num1, num2)
+  puts num1 / num2
 end
 
 def assign_variable(name)
   puts "You are #{name}"
+  name = Bob
 end
 
 def argue(name)
-  puts
+  puts "#{name}"
 end
 
 def greeting(name, language = Spanish)
   puts "Hi, #{name}, heard you speak very good #{language}."
 end
 
-def return_a_value(phrase = Nice)
-  puts "#{phrase}"
+def return_a_value(phrase)
+  puts "nice"
 end
 
 def last_evaluated_value(phrase)
-  puts "#{phrase} = expert"
+  puts "expert"
 end
 
 def pizza_party(pizza = "cheese")
