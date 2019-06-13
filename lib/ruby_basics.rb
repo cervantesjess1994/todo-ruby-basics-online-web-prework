@@ -24,7 +24,7 @@ def last_evaluated_value(phrase)
 end
 
 def pizza_party(pizza = "cheese")
-  puts "I want #{topping} pizza."
+  puts "I want #{pizza}"
 end
 
 def pizza_party(topping)
