@@ -1,4 +1,4 @@
-def division(num1, num2)
+def division(num1, num2,)
   puts num1 / num2
 end
 
@@ -26,6 +26,6 @@ def pizza_party(pizza = "cheese")
   puts "I want #{pizza}"
 end
 
-def pizza_party(topping)
-  puts " #{topping}"
+def pizza_party("pepperoni")
+  puts "#{pepperoni}"
 end
